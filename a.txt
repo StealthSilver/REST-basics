@@ -1,0 +1,14 @@
+REST -> Representational State transfer
+
+REST is an architecture style that defines a set if constrains to de used for creating web services
+the API which use the rest concept are called RESTful API 
+
+They are used to create CRUD operations -> CREATE, READ, UPDATE, DELETE
+
+to check the practices -> stackoverflow.blog/best-practices-for-rest-api-design
+
+GET -> retrives resources
+POST -> submits new data to the server
+PUT -> updates existing data
+PATCH -> updates existing data partially
+DELETE -> removes data
