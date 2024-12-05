@@ -12,3 +12,16 @@ POST -> submits new data to the server
 PUT -> updates existing data
 PATCH -> updates existing data partially
 DELETE -> removes data
+
+resorce -> the data on which the CRUD ops are performed
+
+index.html , index.js 
+
+CREATING A QUORA PAGE 
+
+GET     /posts         to get data for all posts    index route
+POST    /posts         to add a new post            create route
+GET     /posts/:id     to get one post (using id)   view route
+PATCH   /posts/:id     to update specific post      update route
+DELETE  /posts/:id     to delete specific posts     destroy route
+
