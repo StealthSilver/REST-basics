@@ -30,3 +30,8 @@ DELETE  /posts/:id     to delete specific posts     destroy route
 REDIRECT
 
 rs.redirect(url)
+
+UUID package
+Universally unique identifier
+
+npm install uuid
