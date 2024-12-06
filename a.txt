@@ -20,8 +20,13 @@ index.html , index.js
 CREATING A QUORA PAGE 
 
 GET     /posts         to get data for all posts    index route
-POST    /posts         to add a new post            create route
+POST    /posts         to add a new post            create route 
+                                                    2 routes -> serve the form (/posts/new) , add a new post (/posts)
 GET     /posts/:id     to get one post (using id)   view route
 PATCH   /posts/:id     to update specific post      update route
 DELETE  /posts/:id     to delete specific posts     destroy route
 
+
+REDIRECT
+
+rs.redirect(url)
